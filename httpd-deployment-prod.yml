@@ -15,7 +15,7 @@ spec:
    spec:
     containers:
     - name: container
-      image: 이미지이름:latest
+      image: kaenga/httpd:latest
       envFrom:
       - configMapRef:
           name: httpd-cm-prod
